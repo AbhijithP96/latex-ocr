@@ -1,8 +1,10 @@
 import os
+from dotenv import load_dotenv
 import base64
 from langchain_nvidia_ai_endpoints import ChatNVIDIA
 from langchain_core.messages import HumanMessage
 
+load_dotenv()
 llm = ChatNVIDIA(model=os.environ['NVIDIA_MODEL'],nvidia_api_key=os.environ['NVIDIA_API_KEY'])
 instruction = """Understand the mathematical equation in the provided image and output the corresponding LaTeX code.
                             Here are some guidelines you MUST follow or you will be penalized:
