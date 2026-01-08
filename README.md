@@ -30,3 +30,7 @@ This Streamlit application allows users to upload images containing mathematical
 1. Open your web browser and navigate to `http://localhost:8501`.
 2. Upload an image containing a mathematical equation.
 3. Click the "Generate LaTeX Code" button to generate the LaTeX code.
+4. The generated LaTeX code will be displayed on the screen, which you can copy and use as needed.
+
+## Deployment
+The application is deployed on Streamlit Cloud. You can access it [here](https://latex-ocr-axccunv7zjvr84qtstjdly.streamlit.app/).
