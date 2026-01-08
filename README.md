@@ -1,7 +1,13 @@
 # LaTeX Equation From Images
 This Streamlit application allows users to upload images containing mathematical equations and converts them into LaTeX code using NVIDIA's AI endpoints.
 
-## Installation
+## Demo
+![Demo GIF](./images/demo.gif)
+
+## Deployment
+The application is deployed on Streamlit Cloud. You can access it [here](https://latex-ocr-axccunv7zjvr84qtstjdly.streamlit.app/).
+
+## Local Installation
 1. Clone the repository:
    ```bash
    git clone https://github.com/AbhijithP96/latex-ocr.git
@@ -32,8 +38,3 @@ This Streamlit application allows users to upload images containing mathematical
 3. Click the "Generate LaTeX Code" button to generate the LaTeX code.
 4. The generated LaTeX code will be displayed on the screen, which you can copy and use as needed.
 
-## Deployment
-The application is deployed on Streamlit Cloud. You can access it [here](https://latex-ocr-axccunv7zjvr84qtstjdly.streamlit.app/).
-
-## Demo
-![Demo GIF](./images/demo.gif)
