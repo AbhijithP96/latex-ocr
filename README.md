@@ -34,3 +34,6 @@ This Streamlit application allows users to upload images containing mathematical
 
 ## Deployment
 The application is deployed on Streamlit Cloud. You can access it [here](https://latex-ocr-axccunv7zjvr84qtstjdly.streamlit.app/).
+
+## Demo
+![Demo GIF](./images/demo.gif)
