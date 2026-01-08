@@ -1,0 +1,5 @@
+python-dotenv
+streamlit
+Pillow
+langchain-nvidia-ai-endpoints
+langchain-core
